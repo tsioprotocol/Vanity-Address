@@ -1,0 +1,35 @@
+{
+    "name": "vanityAddress",
+    "version": "1.1.0",
+    "description": "ethereum vanity address generator",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tsioprotocol/Vanity-Address.git"
+    },
+    "keywords": [
+        "vanity",
+        "ethereum",
+        "address"
+    ],
+    "author": "swayam01",
+    "contributors": [
+        { "name" : "swayam mittal", "url" : "https://github.com/swayam01"}
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tsioprotocol/TSio-Token/blob/master/LICENSE"
+    },
+    "bin": {
+        "vanityeth": "index.js"
+    },
+    "homepage": "https://github.com/MyEtherWallet/VanityEth#readme",
+    "dependencies": {
+        "ethereumjs-util": "^5.1.1",
+        "ora": "^1.3.0",
+        "yargs": "^7.0.1"
+    }
+}
